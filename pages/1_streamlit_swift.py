@@ -13,7 +13,7 @@ else:
 
 st.title("Taylor Swift's Songs Profile")
 def load_swift_data():
-    return pd.read_csv('.\data\swiftspot.csv')
+    return pd.read_csv('./data/swiftspot.csv')
 
 tswift = load_swift_data()
 
