@@ -1,7 +1,5 @@
 import streamlit as st
 from time import sleep
-from cryptography.fernet import Fernet
-from time import sleep
 
 st.title("Login Page")
 
