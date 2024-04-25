@@ -15,17 +15,17 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 #region [ CSV Data Sources ]
 
 def load_lyrics_fearless_data():
-    lyrics = pd.read_csv('.\data\swift_fearless_taylors_version.csv')["lyric"]
+    lyrics = pd.read_csv('./data/swift_fearless_taylors_version.csv')["lyric"]
     lyrics_series = ', '.join(str(i) for i in lyrics)
     return lyrics_series
 
 def load_lyrics_1989_data():
-    lyrics = pd.read_csv('.\data\swift_1989_deluxe.csv')["lyric"]
+    lyrics = pd.read_csv('./data/swift_1989_deluxe.csv')["lyric"]
     lyrics_series = ', '.join(str(i) for i in lyrics)
     return lyrics_series
 
 def load_lyrics_folklore_data():
-    lyrics = pd.read_csv('.\data\swift_folklore.csv')["lyric"]
+    lyrics = pd.read_csv('./data/swift_folklore.csv')["lyric"]
     lyrics_series = ', '.join(str(i) for i in lyrics)
     return lyrics_series
 
