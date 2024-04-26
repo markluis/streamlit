@@ -34,7 +34,7 @@ def load_all_lyrics():
 
 #endregion
 
-selectbox_album = st.selectbox("Taylor Swift's Album", ['Fearless', '1989', 'Folklore'], index=2, placeholder="Select an album")
+selectbox_album = st.selectbox("Taylor Swift's Album", ['Fearless', '1989', 'Folklore'], index=None, placeholder="Select an album")
 
 if selectbox_album == None:
     # select all albums
