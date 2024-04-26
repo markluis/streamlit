@@ -16,7 +16,7 @@ if st.session_state.get("logged_in", False):
     st.info("This dashboard displays the daily test data collection count and storage used.")
 
     def load_test_data():
-        return pd.read_csv('.\data\data.csv').sort_values(by=['date'], ascending=False)
+        return pd.read_csv('./data/data.csv').sort_values(by=['date'], ascending=False)
 
     # store data in var test_data
     test_data = load_test_data()
